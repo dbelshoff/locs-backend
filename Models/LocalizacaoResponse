@@ -1,0 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace projetoX.Models;
+
+public class LocalizacaoResponse
+{
+    public string Estado { get; set; }
+    public string Cidade { get; set; }
+    public string Bairro { get; set; }
+}
